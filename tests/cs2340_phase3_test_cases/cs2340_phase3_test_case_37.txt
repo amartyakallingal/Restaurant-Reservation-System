@@ -1,0 +1,4 @@
+// [37] SUCCESS: create a menu item
+// create a menu item
+create_menu_item, cheese pizza, dough:mozzarella:tomato sauce
+exit

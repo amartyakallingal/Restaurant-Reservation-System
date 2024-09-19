@@ -1,0 +1,10 @@
+// [39] SUCCESS: create multiple menu items with view results
+// create multiple menu items
+create_menu_item, cheese pizza, dough:mozzarella:tomato sauce
+create_menu_item, vegetable pizza, dough:mozzarella:olives:mushrooms
+create_menu_item, pepperoni pizza, dough:pork:tomato sauce:paprika
+create_menu_item, hawaiian pizza, dough:pineapple:mozzarella:bacon
+create_menu_item, margherita pizza, dough:mozzarella:tomato sauce
+// display the state of the system
+view_all_menu_items
+exit

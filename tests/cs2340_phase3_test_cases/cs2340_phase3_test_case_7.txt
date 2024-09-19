@@ -1,0 +1,8 @@
+// [07] SUCCESS: multiple restaurants same owner
+// create one owner
+create_owner, m8, Andrew, Cabrera, Orlando, FL, 32801, 2022-05-30, Fifth Group
+// create a restaurant
+create_restaurant, r2, Hamlet, Boca Raton, FL, 33431, 6, m8, FS817
+// create a second restaurant with the same owner
+create_restaurant, r4, Weyers, Key West, FL, 30289, 7, m8, FS526
+exit

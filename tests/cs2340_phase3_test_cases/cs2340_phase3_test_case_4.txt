@@ -1,0 +1,6 @@
+// [04] ERROR: duplicate owner
+// create an owner
+create_owner, m8, Andrew, Cabrera, Orlando, FL, 32801, 2022-05-30, Fifth Group
+// ERROR: attempt to create a duplicate owner
+create_owner, m8, Scott, Pearson, Louisville, KY, 40213, 2015-07-17, Darden Group
+exit

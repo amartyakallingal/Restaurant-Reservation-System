@@ -1,0 +1,5 @@
+// [01]-[04]: create_owner TEST SUITE
+// [01] SUCCESS: single owner
+create_owner, m8, Andrew, Cabrera, Orlando, FL, 32801, 2022-05-30, Fifth Group
+exit
+

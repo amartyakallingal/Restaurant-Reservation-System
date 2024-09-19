@@ -1,0 +1,10 @@
+// [40] SUCCESS: add an item to a restaurant menu
+// create an owner
+create_owner, m8, Andrew, Cabrera, Orlando, FL, 32801, 2022-05-30, Fifth Group
+// create a restaurant
+create_restaurant, r2, Hamlet, Boca Raton, FL, 33431, 6, m8, FS817
+// create a menu item
+create_menu_item, cheese pizza, dough:mozzarella:tomato sauce
+// add the menu item to the restaurant
+add_menu_item, cheese pizza, r2, 8
+exit

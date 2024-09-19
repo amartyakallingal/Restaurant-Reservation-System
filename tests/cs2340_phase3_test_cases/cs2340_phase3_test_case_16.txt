@@ -1,0 +1,14 @@
+// [16] SUCCESS: multiple reservations same customer different restaurants
+// create an owner
+create_owner, m8, Andrew, Cabrera, Orlando, FL, 32801, 2022-05-30, Fifth Group
+// create a restaurant
+create_restaurant, r2, Hamlet, Boca Raton, FL, 33431, 6, m8, FS817
+// create a single customer
+create_customer, c3, Angel, Rivera, Miami, FL, 33122, 100
+// make a single reservation for the customer at the restaurant
+make_reservation, c3, r2, 4, 2024-05-24, 19:00, 80
+// create a second reservation for the same customer at a different restaurant
+create_owner, m13, Scott, Pearson, Louisville, KY, 40213, 2015-07-17, Darden Group
+create_restaurant, r8, Domino’s, Alpharetta, GA, 30504, 7, m13, FS182
+make_reservation, c3, r8, 5, 2024-05-28, 19:00, 50
+exit

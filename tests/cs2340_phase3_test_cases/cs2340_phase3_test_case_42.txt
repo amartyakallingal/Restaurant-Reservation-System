@@ -1,0 +1,20 @@
+// [42] SUCCESS: add multiple items to a restaurant menu with view results
+// create an owner
+create_owner, m8, Andrew, Cabrera, Orlando, FL, 32801, 2022-05-30, Fifth Group
+// create a restaurant
+create_restaurant, r2, Hamlet, Boca Raton, FL, 33431, 6, m8, FS817
+// create menu items
+create_menu_item, cheese pizza, dough:mozzarella:tomato sauce
+create_menu_item, vegetable pizza, dough:mozzarella:olives:mushrooms
+create_menu_item, mushroom pizza, dough:mushrooms:tomato sauce:paprika
+// add the menu items to the restaurant
+add_menu_item, cheese pizza, r2, 8
+add_menu_item, vegetable pizza, r2, 9
+add_menu_item, mushroom pizza, r2, 10
+// display the state of the system
+view_all_menu_items
+view_ingredients, cheese pizza
+view_ingredients, vegetable pizza
+view_ingredients, mushroom pizza
+view_menu_items, r2
+exit

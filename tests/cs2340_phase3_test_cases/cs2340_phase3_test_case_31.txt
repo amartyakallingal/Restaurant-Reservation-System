@@ -1,0 +1,19 @@
+// [31] SUCCESS: add multiple customer reviews
+// create owners
+create_owner, m8, Andrew, Cabrera, Orlando, FL, 32801, 2022-05-30, Fifth Group
+create_owner, m13, Scott, Pearson, Louisville, KY, 40213, 2015-07-17, Darden Group
+// create restaurants
+create_restaurant, r2, Hamlet, Boca Raton, FL, 33431, 6, m8, FS817
+create_restaurant, r6, La Cantina Rosso, Buckhead, GA, 30625, 7, m13, FS035
+// create a single customer
+create_customer, c3, Angel, Rivera, Miami, FL, 33122, 100
+// make reservation for the customer at the restaurants
+make_reservation, c3, r2, 4, 2024-05-24, 17:00, 80
+make_reservation, c3, r6, 5, 2024-05-25, 18:00, 110
+// customer arrives exactly on-time at the restaurants for the reservations
+customer_arrival, c3, r2, 2024-05-24, 17:00, 17:00
+customer_arrival, c3, r6, 2024-05-25, 18:00, 18:00
+// customer places reviews after dining
+customer_review, c3, r2, 2024-05-24, 17:00, 55, vegetarian friendly:sports bar
+customer_review, c3, r6, 2024-05-25, 18:00, 98, downtown:waterfront:upscale
+exit

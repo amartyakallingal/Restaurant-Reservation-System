@@ -1,0 +1,6 @@
+// [02] SUCCESS: multiple owners
+// create an owner
+create_owner, m8, Andrew, Cabrera, Orlando, FL, 32801, 2022-05-30, Fifth Group
+// create a second owner
+create_owner, m13, Scott, Pearson, Louisville, KY, 40213, 2015-07-17, Darden Group
+exit

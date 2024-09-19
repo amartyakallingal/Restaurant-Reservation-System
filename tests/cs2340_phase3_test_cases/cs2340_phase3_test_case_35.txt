@@ -1,0 +1,17 @@
+// [35] SUCCESS: add a single customer review with view updates
+// create an owner
+create_owner, m8, Andrew, Cabrera, Orlando, FL, 32801, 2022-05-30, Fifth Group
+// create a restaurant
+create_restaurant, r2, Hamlet, Boca Raton, FL, 33431, 6, m8, FS817
+// create a single customer
+create_customer, c3, Angel, Rivera, Miami, FL, 33122, 100
+// make the first reservation for the customer at the restaurant
+make_reservation, c3, r2, 4, 2024-05-24, 17:00, 80
+// customer arrives exactly on-time at the restaurant for the first reservation
+customer_arrival, c3, r2, 2024-05-24, 17:00, 17:00
+// customer places a review after dining
+customer_review, c3, r2, 2024-05-24, 17:00, 87, romantic:live music:lively
+// display the state of the system
+view_all_restaurants
+view_all_customers
+exit

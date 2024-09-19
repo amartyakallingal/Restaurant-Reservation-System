@@ -1,0 +1,9 @@
+// [13] SUCCESS: multiple customers with views
+// create one customer
+create_customer, c3, Angel, Rivera, Miami, FL, 33122, 100
+// create a second customer
+create_customer, c5, Randy, Moss, Atlanta, GA, 30313, 100
+// examine customer listing
+view_all_customers
+exit
+

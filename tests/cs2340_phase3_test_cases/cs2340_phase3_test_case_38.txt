@@ -1,0 +1,5 @@
+// [38] SUCCESS: create multiple menu items
+// create multiple menu items
+create_menu_item, vegetable pizza, dough:mozzarella:olives:mushrooms
+create_menu_item, pepperoni pizza, dough:pork:tomato sauce:paprika
+exit

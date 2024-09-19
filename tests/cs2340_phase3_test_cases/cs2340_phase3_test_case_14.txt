@@ -1,0 +1,6 @@
+// [14] ERROR: duplicate customer
+// create one customer
+create_customer, c3, Angel, Rivera, Miami, FL, 33122, 100
+// ERROR: attempt to create a duplicate customer
+create_customer, c3, Randy, Moss, Atlanta, GA, 30313, 100
+exit

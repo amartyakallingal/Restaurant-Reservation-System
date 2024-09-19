@@ -1,0 +1,8 @@
+// [50] SUCCESS: two owners - distinguishing similar (e.g., last digit) identifiers
+// create an owner
+create_owner, m15, Andrew, Cabrera, Orlando, FL, 32801, 2022-05-30, Fifth Group
+// create a second owner
+create_owner, m5, Scott, Pearson, Louisville, KY, 40213, 2015-07-17, Darden Group
+// examine customer listing
+view_all_customers
+exit

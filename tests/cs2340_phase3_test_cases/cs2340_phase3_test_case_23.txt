@@ -1,0 +1,10 @@
+// [23] ERROR: reservation with non-existent restaurant
+// create an owner
+create_owner, m8, Andrew, Cabrera, Orlando, FL, 32801, 2022-05-30, Fifth Group
+// create a restaurant
+create_restaurant, r2, Hamlet, Boca Raton, FL, 33431, 6, m8, FS817
+// create a single customer
+create_customer, c3, Angel, Rivera, Miami, FL, 33122, 100
+// ERROR: reservation with non-existent restaurant
+make_reservation, c3, r0, 4, 2024-05-24, 19:00, 80
+exit

@@ -1,0 +1,4 @@
+// [11] SUCCESS: single customer
+create_customer, c3, Angel, Rivera, Miami, FL, 33122, 100
+exit
+

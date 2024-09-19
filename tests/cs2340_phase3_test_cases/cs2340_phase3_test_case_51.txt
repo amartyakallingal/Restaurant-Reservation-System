@@ -1,0 +1,12 @@
+// [51] SUCCESS: multiple restaurants different owners
+// create one owner
+create_owner, m8, Andrew, Cabrera, Orlando, FL, 32801, 2022-05-30, Fifth Group
+// create a restaurant
+create_restaurant, r2, Hamlet, Boca Raton, FL, 33431, 6, m8, FS817
+// create a second owner
+create_owner, m13, Scott, Pearson, Louisville, KY, 40213, 2015-07-17, Darden Group
+// create a second restaurant
+create_restaurant, r6, La Cantina Rosso, Buckhead, GA, 30625, 7, m13, FS035
+// examine restaurant listing
+view_all_restaurants
+exit

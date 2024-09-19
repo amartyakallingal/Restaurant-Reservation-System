@@ -1,0 +1,10 @@
+//ERROR: owner doesn't exist
+create_restaurant, REST001, Olive Garden, Homestead, FL, 33071, 7, OWN001, FS526
+
+//create owners
+create_owner, OWN001, Ricardo, Cardenas, Orlando, FL, 32801, 2022-05-30, Restaurant Brands
+create_owner, OWN002, Andrall, Pearson, Louisville, KY, 40213, 2015-07-17, Yum Brands
+create_owner, OWN003, Joshua, Kobza, Toronto, ON, M5X, 2023-05-01, Restaurant Brands
+
+//ERROR: duplicate unique identifier
+create_owner, OWN003, Mark, Moss, Atlanta, GA, 30313, 2023-05-01, Restaurant Brands
